@@ -1,5 +1,5 @@
 # MKWHD-Installer
-A simple linux bash script to install [Mario Kart Wii HD Remaster](https://gamebanana.com/mods/49179) to your mario kart ISO without CTGP, so it works on dolphin
+A simple linux and now windows python script to install [Mario Kart Wii HD Remaster](https://gamebanana.com/mods/49179) to your mario kart ISO without CTGP, so it works on dolphin
 
 please let me know if you have any issues and ill fix it as quick as i can
 I plan on making this work for more mods that do this kind of thing. ive seen too many pages where people are manually replacing up to 700 files haha
@@ -20,10 +20,9 @@ This will also download WIT (for unpacking/packing your iso), and the mod. its f
 
 ## Running :zap:
 
-- ⚠️ Make sure you have curl and p7zip, curl is needed to install the wit binaries and the mod. 7zip is used to extract the mod ⚠️
-- download `installer.sh` from this repo
-- give it executable permissions ``chmod +x installer.sh``
-- Run it in a terminal by typing ``./installer.sh`` in the directory where you put the file
+- ⚠️ Make sure you have patool installed with ``pip install patool`` ⚠️
+- download `mkwhdwii-installer.py` from this repo
+- simply run ``python mkhdwii-installer.py`` in a terminal
 - Follow the instructions presented in your terminal
 
 
